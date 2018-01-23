@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD9643A6201E414000494190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD9643A5201E414000494190 /* LaunchScreen.storyboard */; };
+		FD98952E201639CF00C6408F /* ItemTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD98952D201639CF00C6408F /* ItemTableViewModel.swift */; };
+		FD98953020170D4400C6408F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD98952F20170D4400C6408F /* DataManager.swift */; };
 		FDB90350200F214B00B7874B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB9034F200F214B00B7874B /* AppDelegate.swift */; };
 		FDB90355200F214B00B7874B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB90353200F214B00B7874B /* Main.storyboard */; };
 		FDB90357200F214B00B7874B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB90356200F214B00B7874B /* Assets.xcassets */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD9643A5201E414000494190 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD98952D201639CF00C6408F /* ItemTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewModel.swift; sourceTree = "<group>"; };
+		FD98952F20170D4400C6408F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		FDB9034C200F214B00B7874B /* MyToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB9034F200F214B00B7874B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB90354200F214B00B7874B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +89,9 @@
 				FDB9035B200F214B00B7874B /* Info.plist */,
 				FDB9036F200F22CA00B7874B /* ToDoItem.swift */,
 				FDB90371200F23ED00B7874B /* ItemTableViewController.swift */,
+				FD98952D201639CF00C6408F /* ItemTableViewModel.swift */,
+				FD98952F20170D4400C6408F /* DataManager.swift */,
+				FD9643A5201E414000494190 /* LaunchScreen.storyboard */,
 			);
 			path = MyToDo;
 			sourceTree = "<group>";
@@ -179,6 +188,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD9643A6201E414000494190 /* LaunchScreen.storyboard in Resources */,
 				FDB90357200F214B00B7874B /* Assets.xcassets in Resources */,
 				FDB90355200F214B00B7874B /* Main.storyboard in Resources */,
 			);
@@ -199,7 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDB90350200F214B00B7874B /* AppDelegate.swift in Sources */,
+				FD98953020170D4400C6408F /* DataManager.swift in Sources */,
 				FDB90372200F23ED00B7874B /* ItemTableViewController.swift in Sources */,
+				FD98952E201639CF00C6408F /* ItemTableViewModel.swift in Sources */,
 				FDB90370200F22CA00B7874B /* ToDoItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
